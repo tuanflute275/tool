@@ -1,0 +1,17 @@
+{
+  "name": "My Extension",
+  "version": "1.0",
+  "description": "Tiện ích của tôi!",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/",
+        "https://*.youtube.com/",
+        "https://*.youtube.com/*"
+      ],
+      "css": ["css/style.css"],
+      "js": ["js/script.js"]
+    }
+  ]
+}
